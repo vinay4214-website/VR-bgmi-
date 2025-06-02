@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BGMI - Battlegrounds Mobile India</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ff6600;
+    }
+    header h1 {
+      color: #ff6600;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      color: #ff6600;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #111;
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a.download-link {
+      color: #00bfff;
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BGMI - Battlegrounds Mobile India</h1>
+    <p>The ultimate Indian battle royale experience</p>
+  </header>
+  <nav>
+    <a href="#about">About BGMI</a>
+    <a href="#tips">Tips & Tricks</a>
+    <a href="#news">News & Updates</a>
+    <a href="#download">Download</a>
+  </nav>
+  <section id="about">
+    <h2 class="section-title">About BGMI</h2>
+    <div class="card">
+      <p>
+        Battlegrounds Mobile India (BGMI) is India's ultimate battle royale experience,
+        tailored for mobile gamers. Developed by Krafton, it brings heart-pounding action,
+        real-time multiplayer battles, iconic maps like Erangel, and frequent updates,
+        all optimized for Indian players.
+      </p>
+    </div>
+  </section>
+  <section id="tips">
+    <h2 class="section-title">Tips & Tricks</h2>
+    <div class="card">
+      <ul>
+        <li>Use cover and movement for survival</li>
+        <li>Optimize sensitivity settings for better control</li>
+        <li>Learn recoil patterns for guns like M416, AKM</li>
+        <li>Drop in hot zones (Pochinki) for practice</li>
+        <li>Stay aware of the shrinking playzone</li>
+      </ul>
+    </div>
+  </section>
+  <section id="news">
+    <h2 class="section-title">News & Updates</h2>
+    <div class="card">
+      <p>
+        🔥 <strong>BGMI 3.2 Update:</strong> Metro Royale mode is back! New skins, RP rewards, improved anti-cheat system,
+        and special June events are live. Don’t miss out!
+      </p>
+    </div>
+  </section>
+  <section id="download">
+    <h2 class="section-title">Download Links</h2>
+    <div class="card">
+      <ul>
+        <li><a href="https://play.google.com/store/apps/details?id=com.pubg.imobile" class="download-link" target="_blank">Google Play Store - BGMI</a></li>
+        <li><a href="https://apps.apple.com/in/app/bgmi/id1526436855" class="download-link" target="_blank">Apple App Store - BGMI</a></li>
+        <li><a href="#" class="download-link">APK Mirror - BGMI APK</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
